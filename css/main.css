@@ -21,10 +21,12 @@ body{
 
 /* header */
 header{
+    height: 100vh;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-image: url("../img/200139-912119482_tiny.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,10 +66,12 @@ header .boton{
 /* main  */
 
 main{
+    height: 100vh;
     padding: 3rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -137,11 +141,19 @@ section h2, section div h3{
 
 
 .invitaciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     padding: 2rem;
-    margin: 3rem 1rem;
     font-weight: 300;
     color: whitesmoke;
     text-align: center;
+}
+
+.invitaciones h2{
+    margin-bottom: 3rem;
 }
 
 .beneficios div{
@@ -387,6 +399,10 @@ footer .legal{
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr 1fr;
         gap: 1rem;
+    }
+
+    footer .redes img{
+        width: 2%;
     }
 }
 
