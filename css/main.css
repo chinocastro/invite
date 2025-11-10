@@ -393,6 +393,17 @@ footer .legal{
 }
 
 @media screen and (min-width: 1024px) {
+    header{
+        height: 100vh;
+    }
+
+    main{
+       height: 150vh;
+    }
+
+    .invitaciones{
+        height: 80vh;
+    }
     /* section dudas */
     .fila{
         display: grid;
